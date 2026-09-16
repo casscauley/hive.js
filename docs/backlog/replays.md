@@ -1,8 +1,8 @@
 # Save and view replays
 
-Also item 2 of `docs/todos.md` ("add a replay system to go forward and backwards
-in the game") — that note is superseded by this file; see
-[remove-docs-directory](remove-docs-directory.md).
+Also item 2 of the old `docs/todos.md` ("add a replay system to go forward and
+backwards in the game") — that note was superseded by this file and dropped when
+`docs/todos.md` was folded into this directory.
 
 ## Why
 

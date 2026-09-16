@@ -123,6 +123,9 @@ EMAIL_BACKEND = "mailer.backend.DbBackend"
 
 UNREST_DEV_PORT = 8005
 
+# The library defaults to BASE_DIR.parent / 'backlog'; ours lives under docs/.
+UNREST_BACKLOG_ROOT = Path(BASE_DIR).parent / 'docs' / 'backlog'
+
 # Lets unrest_api's /api/auth/settings read and write the theme. Only the
 # fields named in the form's Meta are exposed; everything else in a PUT body is
 # ignored.

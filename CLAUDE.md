@@ -73,9 +73,11 @@ script.
 
 ## Backlog
 
-`backlog/README.md` indexes the open tasks and explains how incoming notes
-(`backlog/notes/`, written by `unrest_api.backlog`) get promoted into them. Read
-it before picking up work here.
+`docs/backlog/README.md` indexes the open tasks and explains how incoming notes
+(`docs/backlog/notes/`, written by `unrest_api.backlog`) get promoted into them.
+Read it before picking up work here. The backlog moved out of the repo root on
+2026-09-14; `UNREST_BACKLOG_ROOT` in `server/settings/00-base.py` points the
+library at the new location.
 
 ## How the Game Works
 

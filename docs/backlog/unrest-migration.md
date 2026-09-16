@@ -98,7 +98,7 @@ unauthenticated users, so an auth regression breaks online play first.
 ## Done when
 
 - [x] `git grep -n "'unrest'\|import unrest\b\|unrest\.urls\|unrest\.middleware"`
-  returns nothing outside `backlog/`.
+  returns nothing outside `docs/backlog/`.
 - [x] `.venv/bin/python -c "import unrest_api"` succeeds; `import unrest` fails.
 - [x] `manage.py check` is clean.
 - [ ] **An online game works end to end — still unverified by a human.** The
